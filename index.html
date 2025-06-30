@@ -1,16 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Islas Curiel Technologies</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="js/sound.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Islas Curiel Technologies</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script defer src="js/sonido.js"></script>
 </head>
-<body onload="playIntroSound()">
-    <header>
-        <h1>Islas Curiel Technologies</h1>
-        <p>Tecnología con alma. Bienvenido al templo digital de LaloTuVartar.</p>
-    </header>
+<body onload="reproducirIntroSound()">
+  <h1>Islas Curiel Technologies</h1>
+  <p>Tecnología con alma. Bienvenido al templo digital de LaloTuVartar.</p>
+
+  <audio id="introAudio">
+    <source src="js/medios de comunicación/resonancia-futurista-profunda-287349.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
 </body>
 </html>
